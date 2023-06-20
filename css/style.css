@@ -31,19 +31,19 @@ body {
 /* font sizes classes */
 
 h2 {
-  font-size: 2em;
-}
-
-h3 {
   font-size: 1.75em;
 }
 
-h4 {
+h3 {
   font-size: 1.5em;
 }
 
+h4 {
+  font-size: 1.25em;
+}
+
 p {
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 1.5;
 }
 
@@ -115,7 +115,7 @@ p {
   background-color: #000000;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-size: 1.8em;
+  font-size: 1.6em;
   writing-mode: vertical-lr;
   text-orientation: upright;
   border-radius: 30px 0 0 30px;
@@ -124,7 +124,7 @@ p {
 
 .notice-board h2 i {
   margin-bottom: 1em;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* journey board */
@@ -132,7 +132,7 @@ p {
 .journey-board {
   position: fixed;
   width: 45em;
-  height: 60em;
+  height: 50em;
   top: 13em;
   left: -35em;
   background: #fdfdfd;
@@ -149,7 +149,7 @@ p {
 
 .journey-board h3 {
   position: relative;
-  font-size: 2em;
+  font-size: 1.8em;
   background-color: #000;
   color: #fff;
   padding: 0.75em;
@@ -171,7 +171,7 @@ p {
 
 .journey-board ul {
   list-style-type: disc;
-  font-size: 1.8em;
+  font-size: 1.6em;
   line-height: 1.5;
   margin-top: 1em;
   margin-left: 3em;
@@ -183,7 +183,7 @@ p {
 
 .journey-number {
   color: #0029ff;
-  font-size: 3.5em;
+  font-size: 3.25em;
   position: absolute;
   right: 0.5em;
   top: 2em;
@@ -248,7 +248,7 @@ p {
 
 .nav-link i {
   color: #3683f0;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 /* Header */
@@ -268,7 +268,7 @@ header {
 }
 
 .submit-btn {
-  font-size: 1.2em;
+  font-size: 1.15em;
   width: 80%;
 }
 
@@ -323,7 +323,7 @@ header {
   height: 1.5em;
   border-radius: 50%;
   font-family: "Poly", serif;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   right: 1em;
   top: 50%;
   transform: translateY(-50%);
@@ -408,7 +408,7 @@ iframe {
 }
 
 .sub-thread-btn {
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin: 0.5em;
   padding: 1em 1em 1em 0.75em;
 }
@@ -434,7 +434,7 @@ iframe {
   font-family: "Poppins", sans-serif;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
-  font-size: 1.15em;
+  font-size: 1.05em;
   margin-left: 0.25em;
   padding: 0.5em 0.15em;
   border: 0.1px solid rgba(51, 51, 51, 0.15);
@@ -445,7 +445,7 @@ iframe {
 }
 
 .article-container label {
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin: 0;
 }
 
@@ -469,7 +469,7 @@ iframe {
 .editor .menu {
   display: flex;
   color: #616161;
-  font-size: 1.6em;
+  font-size: 1.5em;
   padding: 0.75em 0.5em;
   gap: 1.5em;
   margin: 0 0.75em;
@@ -494,7 +494,7 @@ iframe {
 .editing-options span {
   color: #616161;
   background-color: #ebebeb;
-  font-size: 1.5em;
+  font-size: 1.35em;
   padding: 0.15em 3.5em 0.15em 0.25em;
 }
 
@@ -519,7 +519,7 @@ iframe {
 }
 
 .thread-chain .see-more-btn {
-  font-size: 1.8em;
+  font-size: 1.6em;
   color: #606161;
   margin: 1em 0 2em 0;
   align-self: flex-end;
@@ -532,11 +532,11 @@ iframe {
 
 @media (max-width: 320px) {
   h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
 
@@ -544,19 +544,19 @@ iframe {
   /* font sizes */
 
   h2 {
-    font-size: 2.25em;
-  }
-
-  h3 {
     font-size: 2em;
   }
 
-  h4 {
+  h3 {
     font-size: 1.75em;
   }
 
+  h4 {
+    font-size: 1.5em;
+  }
+
   p {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 
   /* layout */
@@ -585,7 +585,7 @@ iframe {
   }
 
   .submit-btn {
-    font-size: 1.5em;
+    font-size: 1.25em;
     width: auto;
   }
 
@@ -603,7 +603,7 @@ iframe {
   }
 
   .sub-thread-options-container select {
-    font-size: 1.35em;
+    font-size: 1.15em;
     margin-left: 0.75em;
     padding: 0.75em 0.15em;
   }
@@ -624,7 +624,7 @@ iframe {
   }
 
   .asset-description span {
-    font-size: 1.15rem;
+    font-size: 1.05rem;
   }
 
   .thread-summary .thread-div {
@@ -636,15 +636,15 @@ iframe {
   /* font sizes */
 
   h2 {
-    font-size: 3em;
+    font-size: 2.75em;
   }
 
   h3 {
-    font-size: 2.35em;
+    font-size: 2em;
   }
 
   h4 {
-    font-size: 2em;
+    font-size: 1.75em;
   }
 
   /* layout */
