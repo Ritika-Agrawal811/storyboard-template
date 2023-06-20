@@ -1,5 +1,4 @@
 const showJourneyBoardIcon = document.getElementById("show-journey-board");
-const infoBtnArray = document.getElementsByClassName("info-btn");
 
 function showJourneyBoard() {
   let isOpen = false;
@@ -26,16 +25,3 @@ function showJourneyBoard() {
 let expandMenu = showJourneyBoard();
 
 showJourneyBoardIcon.addEventListener("click", expandMenu);
-
-console.log(infoBtnArray);
-
-for (let btn of infoBtnArray) {
-  btn.addEventListener("click", collapseDescription);
-}
-
-function collapseDescription(event) {
-  let parent = event.target.offsetParent;
-  let descriptionDiv = parent.nextElementSibling;
-
-  descriptionDiv.classList.toggle("collapse");
-}

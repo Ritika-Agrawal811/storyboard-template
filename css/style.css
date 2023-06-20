@@ -649,10 +649,11 @@ iframe {
 
   .asset-container .row {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .asset-card {
-    width: 50%;
+    width: calc((100% - 5em) / 2);
   }
 }
 
