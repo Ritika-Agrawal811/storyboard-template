@@ -287,7 +287,7 @@ header {
 
 .asset-container {
   width: 90%;
-  margin-top: 7em;
+  margin-top: 5em;
 }
 
 .asset-container .row {
@@ -302,7 +302,7 @@ header {
   border-radius: 15px;
   background-color: #fdfdfd;
   overflow: hidden;
-  height: 650px;
+  height: 610px;
 }
 
 .asset-card h4 {
